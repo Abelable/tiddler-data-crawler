@@ -3,6 +3,9 @@
 执行脚本，爬取数据
 node index.js
 
+结束脚本
+control + c
+
 提交代码
 git add .
 git commit -m "提交代码"
