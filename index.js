@@ -10,7 +10,7 @@ const {
   address,
   latitude,
   longitude
-} = require(`./api/scenic/tianyu`);
+} = require(`./api/scenic/zhongxin lake`);
 
 // 需要临时更换
 const ossConfig = {

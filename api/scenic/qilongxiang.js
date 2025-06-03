@@ -1,8 +1,8 @@
 const poiName = "骑龙巷";
 
 const address = "千岛湖骑龙巷";
-const longitude = 119.044119;
-const latitude = 29.603402;
+const longitude = 119.043587;
+const latitude = 29.602157;
 
 const commodityType = 1;
 const commodityId = 32;

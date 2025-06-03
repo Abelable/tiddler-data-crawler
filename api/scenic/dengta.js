@@ -1,8 +1,8 @@
 const poiName = "千岛湖-灯塔";
 
 const address = "千岛湖灯塔";
-const longitude = 119.143672;
-const latitude = 29.605165;
+const longitude = 119.143822;
+const latitude = 29.604676;
 
 const commodityType = 1;
 const commodityId = 29;

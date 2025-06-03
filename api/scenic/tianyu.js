@@ -2,8 +2,8 @@ const poiName = "天屿山观景台";
 
 // 与管理后台景点地址一致
 const address = "千岛湖天屿景区";
-const longitude = 119.046195;
-const latitude = 29.631669;
+const longitude = 119.046237;
+const latitude = 29.630979;
 
 const commodityType = 1; // 商品类型：景点-1，酒店-2，餐饮-3，商品-4
 const commodityId = 1; // 商品id（commodityId = 1：指的是天屿景点id）

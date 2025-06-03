@@ -1,8 +1,8 @@
 const poiName = "下姜村";
 
 const address = "千岛湖下姜村";
-const longitude = 118.729628;
-const latitude = 29.368313;
+const longitude = 118.729681;
+const latitude = 29.367872;
 
 const commodityType = 1;
 const commodityId = 35;

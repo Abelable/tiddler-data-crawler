@@ -1,11 +1,11 @@
-const poiName = "下姜村";
+const poiName = "千岛湖中心湖区";
 
-const address = "千岛湖下姜村";
-const longitude = 118.729628;
-const latitude = 29.368313;
+const address = "中心湖区";
+const longitude = 119.014623;
+const latitude = 29.593799;
 
 const commodityType = 1;
-const commodityId = 35;
+const commodityId = 2;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1748940246207-3855692", {
   "headers": {
