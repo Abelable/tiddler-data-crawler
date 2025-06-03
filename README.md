@@ -1,6 +1,6 @@
 # tiddler-data-crawler
 
-执行脚本
+执行脚本，爬取数据
 node index.js
 
 提交代码
