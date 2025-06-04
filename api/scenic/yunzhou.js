@@ -1,4 +1,4 @@
-const poiName = "千岛湖云舟直升飞机体验（金西总店）";
+const poiName = "千岛湖云舟直升飞机体验(金西总店)";
 
 const address = "云舟直升机飞行体验";
 const longitude = 118.935003;

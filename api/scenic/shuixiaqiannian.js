@@ -1,4 +1,4 @@
-const poiName = "水下千年";
+const poiName = "千岛湖水下千年";
 
 const address = "水下千年";
 const longitude = 118.671182;
