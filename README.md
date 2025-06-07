@@ -16,3 +16,6 @@ git push
 
 打开终端快捷键
 control + ~
+
+清除终端记录
+clear
