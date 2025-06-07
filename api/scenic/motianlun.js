@@ -4,8 +4,8 @@ const address = "千岛之眼摩天轮";
 const longitude = 119.144801;
 const latitude = 29.610503;
 
-const commodityType = 1;
-const commodityId = 34;
+const productType = 1;
+const productId = 34;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749022260693-9128236", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

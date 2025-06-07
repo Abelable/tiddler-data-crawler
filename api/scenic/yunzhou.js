@@ -4,8 +4,8 @@ const address = "云舟直升机飞行体验";
 const longitude = 118.935003;
 const latitude = 29.613343;
 
-const commodityType = 1;
-const commodityId = 15;
+const productType = 1;
+const productId = 15;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749018422148-9432487", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

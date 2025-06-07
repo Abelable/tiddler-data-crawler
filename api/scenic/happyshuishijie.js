@@ -4,8 +4,8 @@ const address = "千岛湖欢乐水世界";
 const longitude = 119.11507;
 const latitude = 29.598044;
 
-const commodityType = 1;
-const commodityId = 45;
+const productType = 1;
+const productId = 45;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749024839668-7918896", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

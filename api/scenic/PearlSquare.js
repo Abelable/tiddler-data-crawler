@@ -4,8 +4,8 @@ const address = "千岛湖珍珠广场";
 const longitude = 119.113993;
 const latitude = 29.597461;
 
-const commodityType = 1;
-const commodityId = 53;
+const productType = 1;
+const productId = 53;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749025945250-1574628", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

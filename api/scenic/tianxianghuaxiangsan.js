@@ -4,8 +4,8 @@ const address = "千岛湖天翔动力滑翔伞";
 const longitude = 119.15256;
 const latitude = 29.594886;
 
-const commodityType = 1;
-const commodityId = 61;
+const productType = 1;
+const productId = 61;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749026944991-8873103", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

@@ -4,8 +4,8 @@ const address = "千岛湖下姜村";
 const longitude = 118.729681;
 const latitude = 29.367872;
 
-const commodityType = 1;
-const commodityId = 35;
+const productType = 1;
+const productId = 35;
 
 const promise = fetch(
   "https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031158113535278284&x-traceID=09031158113535278284-1731402536709-6920595",
@@ -25,7 +25,7 @@ const promise = fetch(
         "https://m.ctrip.com/webapp/you/tripshoot/paipai/poiPage/poiHome?poiId=24653750&poiType=3&isHideHeader=true&isHideNavBar=YES&seo=0&from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fgspoi%2Fsight%2F2249%2F1834601.html%3FpoiId%3D24653750%26seo%3D0%26isHideNavBar%3DYES",
       "Referrer-Policy": "strict-origin-when-cross-origin"
     },
-    body: '{"groupChannelCode":"tourphoto_all","pagePara":{"pageIndex":1,"pageSize":200,"sortType":18},"levels":[1,2,3,4],"commodityTypes":[5],"imageCutType":1,"poiId":24653750,"poiType":3,"head":{"cid":"09031158113535278284","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[{"name":"source","value":"web"},{"name":"technology","value":"H5"},{"name":"os","value":"IOS"},{"name":"application","value":""}]}}',
+    body: '{"groupChannelCode":"tourphoto_all","pagePara":{"pageIndex":1,"pageSize":200,"sortType":18},"levels":[1,2,3,4],"productTypes":[5],"imageCutType":1,"poiId":24653750,"poiType":3,"head":{"cid":"09031158113535278284","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[{"name":"source","value":"web"},{"name":"technology","value":"H5"},{"name":"os","value":"IOS"},{"name":"application","value":""}]}}',
     method: "POST"
   }
 ).then(response => {
@@ -41,7 +41,7 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };

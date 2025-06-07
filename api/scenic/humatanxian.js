@@ -4,8 +4,8 @@ const address = "沪马探险乐园-缆车飞渡";
 const longitude = 118.739623;
 const latitude = 29.515688;
 
-const commodityType = 1;
-const commodityId = 13;
+const productType = 1;
+const productId = 13;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749017003612-754189", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

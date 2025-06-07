@@ -4,8 +4,8 @@ const address = "梦幻千岛湖*时光隧道";
 const longitude = 119.013314;
 const latitude = 29.59169;
 
-const commodityType = 1;
-const commodityId = 12;
+const productType = 1;
+const productId = 12;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749008291415-1832174", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

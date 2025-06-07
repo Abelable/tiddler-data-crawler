@@ -2,11 +2,12 @@
 // 骑龙巷 - qilongxiang
 // 灯塔 - dengta
 // 下姜村 - xiajiang
+
 const {
   poiName,
   promise,
-  commodityId,
-  commodityType,
+  productId,
+  productType,
   address,
   latitude,
   longitude
@@ -110,8 +111,8 @@ promise.then(async data => {
               },
               body: new URLSearchParams({
                 userId,
-                productId: commodityId,
-                productType: commodityType,
+                productId: productId,
+                productType,
                 cover,
                 videoUrl,
                 title: item.articleTitle,
@@ -141,8 +142,8 @@ promise.then(async data => {
         } else {
           const params = new URLSearchParams({
             userId,
-            productId: commodityId,
-            productType: commodityType,
+            productId: productId,
+            productType,
             title: item.articleTitle,
             content: item.content,
             address,

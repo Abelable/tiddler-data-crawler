@@ -5,8 +5,8 @@ const address = "千岛湖天屿景区";
 const longitude = 119.046237;
 const latitude = 29.630979;
 
-const commodityType = 1; // 商品类型：景点-1，酒店-2，餐饮-3，商品-4
-const commodityId = 1; // 商品id（commodityId = 1：指的是天屿景点id）
+const productType = 1; // 产品类型：景点-1，酒店-2，餐饮-3，商品-4
+const productId = 1; // 产品id（productId = 1：指的是天屿景点id）
 
 const promise = fetch(
   "https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031158113535278284&x-traceID=09031158113535278284-1731395977295-7410407",
@@ -26,7 +26,7 @@ const promise = fetch(
         "https://m.ctrip.com/webapp/you/tripshoot/paipai/poiPage/poiHome?poiId=133527969&poiType=3&isHideHeader=true&isHideNavBar=YES&seo=0&from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fsight%2F0%2F10519520.html%3Fscene%3Dlvpai",
       "Referrer-Policy": "strict-origin-when-cross-origin"
     },
-    body: '{"groupChannelCode":"tourphoto_all","pagePara":{"pageIndex":1,"pageSize":200,"sortType":18},"levels":[1,2,3,4],"commodityTypes":[5],"imageCutType":1,"poiId":133527969,"poiType":3,"head":{"cid":"09031158113535278284","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[{"name":"source","value":"web"},{"name":"technology","value":"H5"},{"name":"os","value":"IOS"},{"name":"application","value":""}]}}',
+    body: '{"groupChannelCode":"tourphoto_all","pagePara":{"pageIndex":1,"pageSize":200,"sortType":18},"levels":[1,2,3,4],"productTypes":[5],"imageCutType":1,"poiId":133527969,"poiType":3,"head":{"cid":"09031158113535278284","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[{"name":"source","value":"web"},{"name":"technology","value":"H5"},{"name":"os","value":"IOS"},{"name":"application","value":""}]}}',
     method: "POST"
   }
 ).then(response => {
@@ -42,7 +42,7 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };

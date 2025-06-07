@@ -4,8 +4,8 @@ const address = "千岛湖燃擎·卡丁车俱乐部";
 const longitude = 119.145273;
 const latitude = 29.608014;
 
-const commodityType = 1;
-const commodityId = 22;
+const productType = 1;
+const productId = 22;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749020202306-7272729", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

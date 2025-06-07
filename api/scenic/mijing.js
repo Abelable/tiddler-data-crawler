@@ -4,8 +4,8 @@ const address = "千岛秘境";
 const longitude = 119.222417;
 const latitude = 29.592203;
 
-const commodityType = 1;
-const commodityId = 33;
+const productType = 1;
+const productId = 33;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749022132299-7857848", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

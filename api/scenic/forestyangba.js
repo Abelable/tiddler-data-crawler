@@ -4,8 +4,8 @@ const address ="森林氧吧";
 const longitude = 119.218167;
 const latitude = 29.590203;
 
-const commodityType = 1;
-const commodityId = 4;
+const productType = 1;
+const productId = 4;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749005695158-7917877", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

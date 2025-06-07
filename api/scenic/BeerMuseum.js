@@ -4,8 +4,8 @@ const address = "千岛湖啤酒博物院";
 const longitude = 119.146923;
 const latitude = 29.609353;
 
-const commodityType = 1;
-const commodityId = 17;
+const productType = 1;
+const productId = 17;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749019139323-2054816", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

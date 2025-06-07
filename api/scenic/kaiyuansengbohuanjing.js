@@ -4,8 +4,8 @@ const address = "杭州千岛湖开元森泊焕境乐园";
 const longitude = 119.038183;
 const latitude = 29.615055;
 
-const commodityType = 1;
-const commodityId = 19;
+const productType = 1;
+const productId = 19;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749019848625-5046775", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

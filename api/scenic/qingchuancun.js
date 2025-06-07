@@ -4,8 +4,8 @@ const address = "芹川古镇";
 const longitude = 118.604848;
 const latitude = 29.534414;
 
-const commodityType = 1;
-const commodityId = 58;
+const productType = 1;
+const productId = 58;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749026500342-1474086", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

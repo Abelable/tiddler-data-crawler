@@ -4,8 +4,8 @@ const address = "淳安县博物馆";
 const longitude = 119.111675;
 const latitude = 29.59585;
 
-const commodityType = 1;
-const commodityId = 37;
+const productType = 1;
+const productId = 37;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749022473021-5054277", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

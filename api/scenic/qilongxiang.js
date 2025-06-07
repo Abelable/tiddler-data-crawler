@@ -4,8 +4,8 @@ const address = "千岛湖骑龙巷";
 const longitude = 119.043587;
 const latitude = 29.602157;
 
-const commodityType = 1;
-const commodityId = 32;
+const productType = 1;
+const productId = 32;
 
 const promise = fetch(
   "https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031158113535278284&x-traceID=09031158113535278284-1731392625433-4227771",
@@ -25,7 +25,7 @@ const promise = fetch(
         "https://m.ctrip.com/webapp/you/tripshoot/paipai/poiPage/poiHome?poiId=61947480&poiType=3&isHideHeader=true&isHideNavBar=YES&seo=0&from=https%3A%2F%2Fm.ctrip.com%2Fwebapp%2Fyou%2Fsight%2F0%2F5548394.html%3Fscene%3Dlvpai",
       "Referrer-Policy": "strict-origin-when-cross-origin"
     },
-    body: '{"groupChannelCode":"tourphoto_all","pagePara":{"pageIndex":1,"pageSize":200,"sortType":18},"levels":[1,2,3,4],"commodityTypes":[5],"imageCutType":1,"poiId":61947480,"poiType":3,"head":{"cid":"09031158113535278284","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[{"name":"source","value":"web"},{"name":"technology","value":"H5"},{"name":"os","value":"IOS"},{"name":"application","value":""}]}}',
+    body: '{"groupChannelCode":"tourphoto_all","pagePara":{"pageIndex":1,"pageSize":200,"sortType":18},"levels":[1,2,3,4],"productTypes":[5],"imageCutType":1,"poiId":61947480,"poiType":3,"head":{"cid":"09031158113535278284","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[{"name":"source","value":"web"},{"name":"technology","value":"H5"},{"name":"os","value":"IOS"},{"name":"application","value":""}]}}',
     method: "POST"
   }
 ).then(response => {
@@ -41,7 +41,7 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };

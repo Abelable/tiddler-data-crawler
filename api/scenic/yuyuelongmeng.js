@@ -4,8 +4,8 @@ const address = "千岛湖鱼跃龙门漂流";
 const longitude = 119.097695;
 const latitude = 29.734862;
 
-const commodityType = 1;
-const commodityId = 49;
+const productType = 1;
+const productId = 49;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749025374773-5752202", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

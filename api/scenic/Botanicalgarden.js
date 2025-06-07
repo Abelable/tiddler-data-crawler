@@ -4,8 +4,8 @@ const address = "千岛湖植物园";
 const longitude = 118.99957;
 const latitude = 29.592469;
 
-const commodityType = 1;
-const commodityId = 16;
+const productType = 1;
+const productId = 16;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749019024146-7317147", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

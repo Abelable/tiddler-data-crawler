@@ -4,8 +4,8 @@ const address = "千岛湖水之灵";
 const longitude = 119.112783;
 const latitude = 29.597727;
 
-const commodityType = 1;
-const commodityId = 7;
+const productType = 1;
+const productId = 7;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749006956242-1267742", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

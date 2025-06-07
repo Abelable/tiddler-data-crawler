@@ -4,8 +4,8 @@ const address = "千岛湖温馨岛热气球";
 const longitude = 119.032269;
 const latitude = 29.637231;
 
-const commodityType = 1;
-const commodityId = 25;
+const productType = 1;
+const productId = 25;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749038766127-5551347", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

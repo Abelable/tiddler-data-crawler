@@ -4,8 +4,8 @@ const address = "千岛湖文渊狮城度假区";
 const longitude = 118.668986;
 const latitude = 29.471538;
 
-const commodityType = 1;
-const commodityId = 24;
+const productType = 1;
+const productId = 24;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749021236782-443083", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 

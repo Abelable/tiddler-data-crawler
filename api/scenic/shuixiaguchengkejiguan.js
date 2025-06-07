@@ -4,8 +4,8 @@ const address = "水下古城文化科技主题乐园";
 const longitude = 119.032104;
 const latitude = 29.644671;
 
-const commodityType = 1;
-const commodityId = 59;
+const productType = 1;
+const productId = 59;
 
 const promise = fetch("https://m.ctrip.com/restapi/soa2/16189/searchTripShootListForHomePageV2?_fxpcqlniredt=09031024215196387298&x-traceID=09031024215196387298-1749026693057-9857599", {
   "headers": {
@@ -40,8 +40,8 @@ module.exports = {
   address,
   longitude,
   latitude,
-  commodityType,
-  commodityId,
+  productType,
+  productId,
   promise
 };
 
