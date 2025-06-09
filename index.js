@@ -111,7 +111,7 @@ promise.then(async data => {
               },
               body: new URLSearchParams({
                 userId,
-                productId: productId,
+                productId,
                 productType,
                 cover,
                 videoUrl,
@@ -142,7 +142,7 @@ promise.then(async data => {
         } else {
           const params = new URLSearchParams({
             userId,
-            productId: productId,
+            productId,
             productType,
             title: item.articleTitle,
             content: item.content,
